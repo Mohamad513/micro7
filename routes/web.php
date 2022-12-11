@@ -9,7 +9,7 @@ Route::get('/todo/list','TodoController@list',[BlockFirefox::class]);
 
 
 Route::get('/post/{slug}','PostController@single');
-Route::get('/post/{slug}/comment/{cid}','PostController@single');
+Route::get('/post/{slug}/comment/{cid}','PostController@comments');
 
 
 
